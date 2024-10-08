@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh Pandey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ef3f771d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container"></div>
+    <nav>
+        <img src="images/logo1.png" class="logo">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
+        <p>Web Designer</p>
+        <h1>Hi , I am <span >Ashutosh</span></h1>
+    </div>
+</div>
+<!----------------About--------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image2.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sib-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum neque sit quo! Autem tempore consequuntur id maiores? Tenetur, natus necessitatibus quaerat velit totam magni vero nam quae soluta! Aperiam, magni quasi soluta impedit odio dolore, voluptate velit error aut quam omnis officia qui veritatis facilis nostrum animi adipisci consequuntur quis, sit iusto natus. Dolorum quidem accusamus quod iure laborum. Neque asperiores ipsam magni maxime recusandae delectus inventore suscipit accusamus. Praesentium explicabo, qui quaerat nesciunt amet, perspiciatis accusamus deserunt quibusdam non tempora voluptas beatae molestias unde doloribus tenetur saepe, ipsa quia possimus laudantium libero. Ipsam magni tempora sequi esse fuga?</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI\UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>UI\UX Design Training at ET Institute.</li>
+                        <li><span>None</span><br>None</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>Intermediate</li>
+                        <li><span>2026</span><br>B-tech in Computer Science and Engineering from IIIT Agartala.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------Services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laudantium nemo aliquam natus totam, qui necessitatibus assumenda, ipsum, pariatur molestias dicta ut! Laborum excepturi explicabo vero sapiente eius! Harum vero expedita ducimus, quo impedit, maxime doloremque quisquam reprehenderit debitis corporis totam aut voluptatibus porro corrupti quaerat. Quos nam possimus quae excepturi tempore animi fuga doloremque quibusdam a! Eligendi accusamus magnam, perferendis et quae rerum esse doloremque, eveniet provident dolorem odit non earum. Impedit ad assumenda quasi ea mollitia unde voluptatem quia repellendus aliquid possimus exercitationem eaque cumque voluptatum animi ducimus, amet, aperiam quae totam tempora necessitatibus inventore libero consequatur neque.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laudantium nemo aliquam natus totam, qui necessitatibus assumenda, ipsum, pariatur molestias dicta ut! Laborum excepturi explicabo vero sapiente eius! Harum vero expedita ducimus, quo impedit, maxime doloremque quisquam reprehenderit debitis corporis totam aut voluptatibus porro corrupti quaerat. Quos nam possimus quae excepturi tempore animi fuga doloremque quibusdam a! Eligendi accusamus magnam, perferendis et quae rerum esse doloremque, eveniet provident dolorem odit non earum. Impedit ad assumenda quasi ea mollitia unde voluptatem quia repellendus aliquid possimus exercitationem eaque cumque voluptatum animi ducimus, amet, aperiam quae totam tempora necessitatibus inventore libero consequatur neque.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div
+<!------------------contact-------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ashuupandey2002@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+918707545793</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Ashutosh.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyV8RQU-Yz-2xe1xFdcgSeCZLC8WOkFiucpFHP4s5zMNJFyx0tTBUySPUDltw8N1Rv-YA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Successfullly"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
